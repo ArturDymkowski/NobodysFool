@@ -7,27 +7,53 @@ body {
 }
 
 /* TOPBAR */
-.navbar {
+.topbar.navbar {
     background-color: #2e2e2e !important;
 }
 
-.navbar .nav-link {
+.topbar.navbar .nav-link {
     color: #9f9f9f !important;
     font-size: 12px;
 }
 
-.navbar .nav-link:after {
+.topbar.navbar .nav-link:after {
     content: '|';
     color: #9f9f9f;
     position: relative;
     left: 7px;
 }
 
-.navbar #navbarNav {
+.topbar.navbar #topbarNav {
     justify-content: space-between;
 }
 
-.navbar .social:after {
+.topbar.navbar .social:after {
     content: '';
 }
 
+/* NAVBAR */
+.menu.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.menu.navbar .nav-link {
+    color: #2e2e2e !important;
+
+}
+
+.menu.navbar a {
+    border-bottom: 5px solid #f1f1f1;
+    padding-bottom: 20px;
+}
+
+.menu.navbar a.active {
+    border-bottom: 5px solid #0099ff;
+}
+
+.menu.navbar .nav-link.active {
+    color: #9f9f9f !important;
+}
+
+.menu.navbar #navbarNav {
+    justify-content: center;
+}
