@@ -1,5 +1,7 @@
 /*
-TOPBAR
+- TOPBAR
+- NAVBAR
+- LOGOBAR
  */
 
 body {
@@ -56,4 +58,48 @@ body {
 
 .menu.navbar #navbarNav {
     justify-content: center;
+}
+
+.menu.navbar #navbarNav {
+
+}
+
+/* LOGOBAR */
+.logobar {
+    margin-top: 67px;
+}
+
+.logobar .logo-text {
+    font-size: 36px;
+    color: #333333;
+}
+
+.logobar .logo-undertext {
+    font-size: 12px;
+    color: #999999;
+}
+
+.logobar .form-inline {
+    display: flex;
+    justify-content: end;
+}
+
+.logobar .form-inline .form-control {
+    width: 214px;
+    background-color: #f1f1f1;
+}
+
+.logobar .form-inline .form-control::placeholder {
+    color: #999999;
+}
+
+.logobar .form-inline .btn {
+    margin-left: 10px;
+    background-color: #0099ff;
+    color: #ffffff;
+    border-color: #0099ff;
+}
+
+.logobar .search {
+    align-self: center;
 }
