@@ -1,0 +1,33 @@
+/*
+TOPBAR
+ */
+
+body {
+    font-family: "Georgia", serif;
+}
+
+/* TOPBAR */
+.navbar {
+    background-color: #2e2e2e !important;
+}
+
+.navbar .nav-link {
+    color: #9f9f9f !important;
+    font-size: 12px;
+}
+
+.navbar .nav-link:after {
+    content: '|';
+    color: #9f9f9f;
+    position: relative;
+    left: 7px;
+}
+
+.navbar #navbarNav {
+    justify-content: space-between;
+}
+
+.navbar .social:after {
+    content: '';
+}
+
