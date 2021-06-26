@@ -2,10 +2,15 @@
 - TOPBAR
 - NAVBAR
 - LOGOBAR
+- SLIDERSECTION
  */
 
 body {
     font-family: "Georgia", serif;
+}
+
+.container-fluid {
+    padding: 0 20px 0 20px;
 }
 
 /* TOPBAR */
@@ -67,6 +72,7 @@ body {
 /* LOGOBAR */
 .logobar {
     margin-top: 67px;
+    margin-bottom: 45px;
 }
 
 .logobar .logo-text {
@@ -102,4 +108,41 @@ body {
 
 .logobar .search {
     align-self: center;
+}
+
+/* SLIDERSECTION */
+.slidersection {
+    background-color: #f1f1f1;
+    border-top: solid 5px #e9e9e9;
+    padding-bottom: 10px;
+}
+
+.slidersection .slider-text {
+    padding-top: 155px;
+}
+
+.slidersection .slider {
+    padding-top: 15px;
+}
+
+.slidersection .row {
+    justify-content: center;
+}
+
+.slidersection .slider-title {
+    font-size: 36px;
+    color: #333333;
+}
+
+.slidersection .slider-about {
+    font-size: 16px;
+    color: #666666;
+}
+
+.slidersection .slider-text .btn {
+    background-color: #0099ff;
+    border-color: #0099ff;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
 }
