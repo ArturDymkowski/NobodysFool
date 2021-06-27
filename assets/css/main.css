@@ -3,6 +3,7 @@
 - NAVBAR
 - LOGOBAR
 - SLIDERSECTION
+- ITEMS
  */
 
 body {
@@ -114,7 +115,7 @@ body {
 .slidersection {
     background-color: #f1f1f1;
     border-top: solid 5px #e9e9e9;
-    padding-bottom: 10px;
+    border-bottom: solid 10px #e9e9e9;
 }
 
 .slidersection .slider-text {
@@ -145,4 +146,37 @@ body {
     color: #fff;
     padding: 10px;
     text-transform: uppercase;
+}
+
+/* CONTENT */
+
+.content {
+    padding-top: 40px;
+}
+
+.content-image {
+    text-align: right;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items .item {
+    width: 313px;
+    text-align: center;
+    padding: 20px;
+}
+
+.items .item .item-title {
+    margin-top: 12px;
+    color: #0099ff;
+    font-size: 16px;
+}
+
+.items .item .item-about {
+    margin-top: 22px;
+    color: #666666;
+    font-size: 13px;
 }
