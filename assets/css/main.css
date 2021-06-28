@@ -3,7 +3,8 @@
 - NAVBAR
 - LOGOBAR
 - SLIDERSECTION
-- ITEMS
+- CONTENT
+- BOTTOMBAR
  */
 
 body {
@@ -179,4 +180,38 @@ body {
     margin-top: 22px;
     color: #666666;
     font-size: 13px;
+}
+
+.bottombar {
+    padding: 40px;
+    border-left: 10px solid #0099ff;
+    background-color: #e0e0e0;
+    width: 99%;
+}
+
+.bottombar .col-4 {
+    align-self: center;
+}
+
+.bottombar .col-8 {
+    text-align: center;
+}
+
+.bottombar .bottom-title {
+    color: #333333;
+    font-size: 36px;
+}
+
+.bottombar .bottom-text {
+    color: #6e6e6e;
+    font-size: 18px;
+}
+
+.bottombar .bottombar-btn {
+    padding: 20px 13px;
+    background-color: #0099ff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
 }
